@@ -1,0 +1,100 @@
+.footer {
+  color: #fff;
+  background-color: #0d1119;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 70px 0 20px;
+  }
+
+  .col {
+    width: 37%;
+  }
+
+  .col-right {
+    width: 22%;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 40px 0 0 0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    color: #fff;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .social {
+    i {
+      font-size: 20px;
+      padding: 18px;
+      border-radius: 50%;
+    }
+  }
+
+  .icon-facebook {
+    background-color: #2e3192;
+  }
+
+  .icon-twitter {
+    background-color: #00aeef;
+  }
+
+  .icon-youtube {
+    background-color: #ed3123;
+  }
+
+  .icon-linkedin2 {
+    background-color: #171a8f;
+  }
+
+  form {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    height: 49px;
+    .form-elements-container{
+      position: absolute;
+      left: 37%;
+      width: 63%;
+      top: 0px;
+      display: flex;
+      flex-direction: row;
+      input, button{
+        margin-left: 20px;
+        height: 49px;
+        line-height: 49px;
+        width: 33%;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: $green;
+        font-size: 14px;
+        color: #fff;
+        border-style: none;
+        i {
+          height: 49px;
+          line-height: 49px;
+          font-size: 14px;
+          color: $green;
+          background-color: #fff;
+          border-radius: 50%;
+        }
+        &:hover {
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}
